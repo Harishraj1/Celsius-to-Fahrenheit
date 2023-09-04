@@ -2,9 +2,6 @@
 
 This simple web application allows you to convert temperatures from Celsius to Fahrenheit instantly. It's a useful tool for quick temperature conversions in your daily life or projects.
 
-## Live Demo
-
-You can see the application in action by visiting the [Celsius to Fahrenheit Converter](file:///D:/html,css,js/small%20project-HTML,CSS,JS/lenght%20convertor/index.html) live demo link.
 
 ## Features
 
