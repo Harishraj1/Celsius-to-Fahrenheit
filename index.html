@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>length convertor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <h2>Celsius to Fahrenheit</h2>
+        <div class="inputdiv">
+            <input id="input" type="number" placeholder="enter Celsius">
+        </div>
+        <div class="btn">
+            <button type="submit" onclick="convert()">convert to Fahrenheit</button>
+        </div>
+        <div id="result">
+
+        </div>
+    </div>
+
+    <script>
+        function convert(){
+            let celval = Number(document.getElementById("input").value)
+            let fanval = celval*1.8+32
+            let finalval = document.getElementById("result")
+            finalval.innerHTML = fanval
+        }
+    </script>
+</body>
+</html>
